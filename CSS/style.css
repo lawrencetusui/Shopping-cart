@@ -1,0 +1,367 @@
+.imgBowl {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 180px;
+  width: 696px;
+  height: 396px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#banner {
+  background-image: url(../images/banner.jpg);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Content {
+  background-color: lightgoldenrodyellow;
+}
+#ProductTab td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+nav {
+  font-size: 20px;
+  font-style: oblique;
+  list-style-type: none;
+  color: purple;
+  border-bottom: 3px solid red;
+  border-top: 3px solid red;
+}
+#nav {
+  background-color: #CEF6D8;
+}
+ul {
+  float: inherit;
+}
+#nav ul .subNav ul {
+  display: none;
+}
+#nav ul .subNav:hover ul {
+  display: block;
+}
+#nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+#nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#Psh {
+  background-color: #A4A4A4;
+}
+
+.mainpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+tr {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+img {
+  width: 196px;
+  height: 196px;
+}
+
+#ImageContent {
+  line-height: 0;
+}
+
+#FormContent {
+  background-color: lightgoldenrodyellow;
+}
+
+#Header {
+  width: 980px;
+  height: 50px;
+  background-color: grey;
+}
+
+#footer {
+  width: 980px;
+  height: 20px;
+  color: black;
+  text-align: center;
+  background-color: grey;
+}
+
+/* PRAC C */
+.firstSlideShow, .secondSlideShow, .thirdSlideShow {display:none;}
+
+
+
+#ProductTab p{
+  text-align: center;
+   font-family: 'Bowlby One SC', cursive;
+   width: 320px;
+   height: 320px;
+   background: pink;
+   margin: 0 auto;
+}
+
+#slide img{
+  width: 400px;
+  height: 500px;
+
+}
+
+div.slide img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 50%;
+  height: 300px;
+  padding: 0px 100px;
+}
+
+div.ProductTab {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 210px;
+
+}
+
+div.ProductTab:hover {
+  border: 1px solid #777;
+}
+
+div.ProductTab img {
+  width: 100%;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* END*/
+@media only screen and (max-width:500px) {
+
+  /*first for mobile*/
+  #banner {
+    background-image: url(../images/logo.png);
+    width: 180px;
+    height: 170px;
+  }
+}
+
+@media only screen and (min-width:501px) {
+
+  /*second for tablet*/
+  #banner {
+    width: 650px;
+    height: 230px;
+  }
+
+  #nav {
+    width: 25%;
+    float: left;
+  }
+
+  #Content {
+    width: 100%;
+  }
+
+  #Ph {
+    width: 70%;
+  }
+
+  #Psh {
+    width: 70%;
+  }
+
+  #footer {
+    width: 980px;
+    height: 20px;
+  }
+}
+
+@media only screen and (min-width:800px) {
+
+  /*third for laptop*/
+  #banner {
+    width: 980px;
+    height: 296px;
+  }
+
+  #nav {
+    width: 200px;
+    height: 1220px;
+    float: left;
+  }
+
+  #Content {
+    width: 980px;
+    height: 1150px;
+  }
+
+  #FormContent {
+    width: 980px;
+  }
+
+  #Ph {
+    width: 980px;
+    height: 50px;
+  }
+
+  #Psh {
+    width: 980px;
+    height: 50px;
+  }
+
+  #footer {
+    width: 980px;
+    height: 20px;
+  }
+}
+/* Header style login*/
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+ */
+
+.logo {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 30%;
+  height:auto;
+  float center;
+}
+
+.logo:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text],input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,.form-signup input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+.signupbtn .cancelbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.signupbtn:hover .cancelbtn:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
